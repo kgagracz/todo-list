@@ -1,0 +1,31 @@
+@import '../../Styles/variables';
+
+.sidebar {
+    .todo-list {
+        list-style-type: none;
+        padding: 10px 0;
+        .todo-item {
+            cursor: pointer;
+            width:100%;
+            display:flex;
+            justify-content: space-between;
+            padding: 10px;
+            transition: background .2s;
+            align-items: center;
+            &:hover {
+                background-color: $background;
+            }
+        }
+        .todo-item.done {
+            color: $disable-text
+        }
+        .list-item-buttons {
+            span {
+                color: $main-blue;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}

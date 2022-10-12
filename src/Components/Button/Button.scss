@@ -1,0 +1,15 @@
+@import '../../Styles/variables';
+
+.button {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: $main-blue;
+    cursor: pointer;
+    color: #fff;
+}
+
+.button:hover {
+    
+}

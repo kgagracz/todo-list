@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eaebec;
+  height: 80px;
+  position: relative;
+}
+.navbar .logo-container {
+  position: absolute;
+  left: 10px;
+}/*# sourceMappingURL=Navbar.css.map */

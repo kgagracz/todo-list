@@ -1,0 +1,25 @@
+.sidebar .todo-list {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.sidebar .todo-list .todo-item {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  transition: background 0.2s;
+  align-items: center;
+}
+.sidebar .todo-list .todo-item:hover {
+  background-color: #f3f8ff;
+}
+.sidebar .todo-list .todo-item.done {
+  color: rgb(112, 112, 112);
+}
+.sidebar .todo-list .list-item-buttons span {
+  color: #0770ff;
+}
+.sidebar .todo-list .list-item-buttons span:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=Sidebar.css.map */

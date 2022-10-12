@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input::-moz-placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+input:-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+input::placeholder {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #0770ff;
+  margin: 50px;
+}
+
+.app-wrapper {
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.container {
+  margin: 0 100px;
+}
+
+.todo-app {
+  display: flex;
+  padding: 20px;
+}
+.todo-app > * {
+  width: 50%;
+}/*# sourceMappingURL=global.css.map */

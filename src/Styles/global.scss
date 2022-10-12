@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import "./variables";
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+input::placeholder {
+    font-family: 'Open Sans', sans-serif;;
+}
+
+body {
+    background-color: $main-blue;
+    margin: 50px;
+}
+
+.app-wrapper {
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.container {
+    margin: 0 100px
+}
+
+.todo-app {
+    display: flex;
+    padding: 20px;
+    & > * {
+        width: 50%
+    }
+}

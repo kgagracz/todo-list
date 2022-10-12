@@ -1,0 +1,9 @@
+@import '../../Styles/variables';
+
+.search-bar {
+    background-color: $background;
+    border-radius: 50px;
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+}

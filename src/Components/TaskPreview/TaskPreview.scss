@@ -1,0 +1,12 @@
+@import "../../Styles/variables";
+
+.task-preview {
+    .task-create-date {
+        color: $disable-text;
+        font-size: 12px;
+    }
+    .task-body {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+}

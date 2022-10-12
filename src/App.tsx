@@ -1,21 +1,21 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
+import Sidebar from "./Components/Sidebar";
+import TaskPreview from "./Components/TaskPreview/TaskPreview";
+import { TodoStore } from "./Store/TodoStore";
+import { SearchStore } from "./Store/SearchStore";
+import "./Styles/global.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App container">
+      <div className="app-wrapper">
+        <Navbar />
+        <div className="todo-app">
+          <TaskPreview todoStore={TodoStore} />
+          <Sidebar searchStore={SearchStore} todoStore={TodoStore} />
+        </div>
+      </div>
     </div>
   );
 }
