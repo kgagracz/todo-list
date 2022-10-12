@@ -35,3 +35,11 @@ body {
         width: 50%
     }
 }
+
+.material-symbols-outlined {
+    cursor: pointer;
+    transition: all .2s;   
+    &:hover {
+        transform: scale(1.2);
+    }
+}

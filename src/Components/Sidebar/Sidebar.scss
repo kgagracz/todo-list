@@ -1,6 +1,16 @@
 @import '../../Styles/variables';
 
 .sidebar {
+    .sidebar-head {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .material-symbols-outlined {
+            color: $main-blue;
+            cursor:pointer;
+        }
+    }
+
     .todo-list {
         list-style-type: none;
         padding: 10px 0;
@@ -22,9 +32,6 @@
         .list-item-buttons {
             span {
                 color: $main-blue;
-                &:hover {
-                    transform: scale(1.2);
-                }
             }
         }
     }

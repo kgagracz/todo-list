@@ -1,3 +1,12 @@
+.sidebar .sidebar-head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sidebar .sidebar-head .material-symbols-outlined {
+  color: #0770ff;
+  cursor: pointer;
+}
 .sidebar .todo-list {
   list-style-type: none;
   padding: 10px 0;
@@ -19,7 +28,4 @@
 }
 .sidebar .todo-list .list-item-buttons span {
   color: #0770ff;
-}
-.sidebar .todo-list .list-item-buttons span:hover {
-  transform: scale(1.2);
 }/*# sourceMappingURL=Sidebar.css.map */

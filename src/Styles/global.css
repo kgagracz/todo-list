@@ -40,4 +40,12 @@ body {
 }
 .todo-app > * {
   width: 50%;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.material-symbols-outlined:hover {
+  transform: scale(1.2);
 }/*# sourceMappingURL=global.css.map */

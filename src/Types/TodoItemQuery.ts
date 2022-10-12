@@ -1,5 +1,6 @@
 export interface TodoItemQuery {
   title: string;
   content: string;
-  deadline?: Date | "";
+  deadline?: Date | null;
+  id?: string;
 }

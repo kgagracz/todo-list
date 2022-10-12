@@ -44,7 +44,7 @@ export class TodoStoreClass {
     if (todoItem) todoItem.done = !todoItem.done;
   }
 
-  editTodo(id: string, newTodo: TodoItem) {
+  editTodo(id: string, newTodo: TodoItemQuery) {
     const index = this.todos.findIndex((todo) => todo.id === id);
     this.todos[index] = { ...this.todos[index], ...newTodo };
   }
