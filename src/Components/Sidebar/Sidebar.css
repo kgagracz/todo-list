@@ -20,12 +20,17 @@
   padding: 10px;
   transition: background 0.2s;
   align-items: center;
+  position: relative;
 }
 .sidebar .todo-list .todo-item:hover {
   background-color: #f3f8ff;
 }
+.sidebar .todo-list .todo-item input[type=checkbox] {
+  margin-right: 10px;
+}
 .sidebar .todo-list .todo-item.done {
   color: rgb(138, 138, 138);
+  text-decoration: line-through;
 }
 .sidebar .todo-list .list-item-buttons span {
   color: #0770ff;

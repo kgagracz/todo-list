@@ -54,9 +54,11 @@ const Sidebar: React.FC<Props> = observer(({ todoStore, searchStore }) => {
               onClick={() => todoStore.setTodoId(todoItem.id)}
             >
               <div>
-                <span onClick={() => todoStore.setStatus(todoItem.id)}>
-                  [{todoItem.done ? "x" : ""}]
-                </span>
+                <input
+                  type="checkbox"
+                  checked={todoItem.done}
+                  onChange={() => todoStore.setStatus(todoItem.id)}
+                />
                 <span>{todoItem.title}</span>
               </div>
               <div className="list-item-buttons">

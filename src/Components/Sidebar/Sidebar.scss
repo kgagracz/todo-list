@@ -23,12 +23,18 @@
             padding: 10px;
             transition: background .2s;
             align-items: center;
+            position: relative;
             &:hover {
                 background-color: $background;
             }
+
+            input[type="checkbox"] {
+                margin-right: 10px
+            }
         }
         .todo-item.done {
-            color: $disable-text
+            color: $disable-text;
+            text-decoration: line-through;
         }
         .list-item-buttons {
             span {
