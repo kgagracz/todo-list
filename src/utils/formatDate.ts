@@ -1,5 +1,6 @@
 export const formatDate = (date: Date) => {
-  return `${
-    date.getUTCMonth() + 1
-  }-${date.getUTCDate()}-${date.getUTCFullYear()}`;
+  if (date)
+    return `${date.getUTCFullYear()}-${
+      date.getUTCMonth() + 1
+    }-${date.getUTCDate()}`;
 };

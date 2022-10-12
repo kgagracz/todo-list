@@ -1,8 +1,11 @@
 .task-preview .task-create-date {
-  color: rgb(112, 112, 112);
+  color: rgb(138, 138, 138);
   font-size: 12px;
 }
 .task-preview .task-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   margin-top: 10px;
   font-size: 14px;
 }/*# sourceMappingURL=TaskPreview.css.map */

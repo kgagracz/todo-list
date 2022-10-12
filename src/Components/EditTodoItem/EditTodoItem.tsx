@@ -27,12 +27,15 @@ const EditTodoItemForm: React.FC<Props> = ({
   };
 
   return (
-    <TodoItemForm
-      handleSubmit={handleSubmit}
-      todoItem={newTodoItem}
-      handleInputChange={handleInputChange}
-      submitButtonText="Edytuj zadanie"
-    />
+    <div>
+      <h4>Edycja zadania</h4>
+      <TodoItemForm
+        handleSubmit={handleSubmit}
+        todoItem={newTodoItem}
+        handleInputChange={handleInputChange}
+        submitButtonText="Edytuj zadanie"
+      />
+    </div>
   );
 };
 

@@ -4,6 +4,7 @@
     .sidebar-head {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         gap: 20px;
         .material-symbols-outlined {
             color: $main-blue;
@@ -33,6 +34,14 @@
             span {
                 color: $main-blue;
             }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        & > div {
+            margin-top: 30px
         }
     }
 }

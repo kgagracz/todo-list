@@ -16,7 +16,6 @@ input::placeholder {
 
 body {
     background-color: $main-blue;
-    margin: 50px;
 }
 
 .app-wrapper {
@@ -25,7 +24,7 @@ body {
 }
 
 .container {
-    margin: 0 100px
+    margin: 6.25rem
 }
 
 .todo-app {
@@ -41,5 +40,18 @@ body {
     transition: all .2s;   
     &:hover {
         transform: scale(1.2);
+    }
+}
+
+@media(max-width:991px ) {
+    .container {
+        margin: 0;
+    }
+
+    .todo-app {
+        flex-wrap: wrap;
+        & > * {
+            width: 100%;
+        }
     }
 }

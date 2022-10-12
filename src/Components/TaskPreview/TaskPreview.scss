@@ -6,6 +6,9 @@
         font-size: 12px;
     }
     .task-body {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
         margin-top: 10px;
         font-size: 14px;
     }

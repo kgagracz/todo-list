@@ -36,12 +36,15 @@ const AddTodoItemForm: React.FC<Props> = ({ todoStore, toggleAddTodoForm }) => {
   };
 
   return (
-    <TodoItemForm
-      submitButtonText="Dodaj zadanie"
-      handleInputChange={updateNewTodoItem}
-      handleSubmit={handleFormSubmit}
-      todoItem={newTodoItem}
-    />
+    <div>
+      <h4>Dodawanie zadania</h4>
+      <TodoItemForm
+        submitButtonText="Dodaj zadanie"
+        handleInputChange={updateNewTodoItem}
+        handleSubmit={handleFormSubmit}
+        todoItem={newTodoItem}
+      />
+    </div>
   );
 };
 

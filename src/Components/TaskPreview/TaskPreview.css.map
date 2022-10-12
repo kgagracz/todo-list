@@ -1,1 +1,1 @@
-{"version":3,"sources":["TaskPreview.scss","../../Styles/_variables.scss","TaskPreview.css"],"names":[],"mappings":"AAGI;EACI,yBCFO;EDGP,eAAA;AEFR;AFII;EACI,gBAAA;EACA,eAAA;AEFR","file":"TaskPreview.css"}
+{"version":3,"sources":["TaskPreview.scss","../../Styles/_variables.scss","TaskPreview.css"],"names":[],"mappings":"AAGI;EACI,yBCFO;EDGP,eAAA;AEFR;AFII;EACI,aAAA;EACA,sBAAA;EACA,SAAA;EACA,gBAAA;EACA,eAAA;AEFR","file":"TaskPreview.css"}

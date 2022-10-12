@@ -22,7 +22,6 @@ input::placeholder {
 
 body {
   background-color: #0770ff;
-  margin: 50px;
 }
 
 .app-wrapper {
@@ -31,7 +30,7 @@ body {
 }
 
 .container {
-  margin: 0 100px;
+  margin: 6.25rem;
 }
 
 .todo-app {
@@ -48,4 +47,16 @@ body {
 }
 .material-symbols-outlined:hover {
   transform: scale(1.2);
+}
+
+@media (max-width: 991px) {
+  .container {
+    margin: 0;
+  }
+  .todo-app {
+    flex-wrap: wrap;
+  }
+  .todo-app > * {
+    width: 100%;
+  }
 }/*# sourceMappingURL=global.css.map */

@@ -28,6 +28,12 @@ const TaskPreview: React.FC<Props> = observer(({ todoStore }) => {
       </div>
       <div className="task-body">
         <p>{content}</p>
+        {deadline && (
+          <div>
+            <h5>Termin zadania:</h5>
+            <p>{String(deadline)}</p>
+          </div>
+        )}
       </div>
     </div>
   );

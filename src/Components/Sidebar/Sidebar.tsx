@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { TodoStoreClass } from "../../Store/TodoStore";
 import { TodoItem } from "../../Types/TodoItem";
-import Button from "../Button";
 import "./Sidebar.css";
 import { observer } from "mobx-react";
 import { SearchStoreClass } from "../../Store/SearchStore";
