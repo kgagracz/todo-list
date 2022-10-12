@@ -23,9 +23,8 @@ const AddTodoItemForm: React.FC<Props> = ({ todoStore, toggleAddTodoForm }) => {
     useState<TodoItemQuery>(defaultNewTodoItem);
 
   const updateNewTodoItem = (e: React.FormEvent<HTMLInputElement>) => {
-    //@ts-ignore
+    //@ts-ignore --- I'm not sure what type should be above
     setNewTodoItem({ ...newTodoItem, [e.target.name]: e.target.value });
-    console.log(newTodoItem);
   };
 
   const handleFormSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
